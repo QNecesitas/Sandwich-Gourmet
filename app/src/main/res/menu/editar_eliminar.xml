@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_editar_eliminar_tvEditar"
+        android:icon="@drawable/edit"
+        android:title="@string/editar"
+        />
+    <item
+        android:id="@+id/menu_editar_eliminar_tvEliminar"
+        android:title="@string/eliminar"
+        android:icon="@drawable/delete"/>
+    <item
+        android:id="@+id/menu_editar_eliminar_tvCambiarVisibilidad"
+        android:title="@string/cambiar_visibilidad"
+        android:icon="@drawable/visibility"/>
+</menu>

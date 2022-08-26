@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_EmpleadoJefe"
+    android:orientation="vertical">
+
+    <!--Toolbar-->
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/empleado_jefe_appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/empleado_jefe_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            app:title="@string/Administracion"
+            app:titleTextColor="@color/white"
+            android:theme="@style/ToolbarIcons">
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- Imagen -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:scaleType="centerCrop"
+            android:src="@drawable/cocina_chef"
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:background="#FF5722"
+            app:layout_constraintDimensionRatio="3:2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    
+    <!-- Contenido -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="-40sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginStart="20sp"
+                android:layout_marginBottom="20sp"
+                android:translationZ="5sp"
+                android:elevation="5sp"
+                app:cardCornerRadius="20sp"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:layout_marginEnd="10sp"
+                android:onClick="EmpleadoJefe_Click_Pedidos">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:src="@drawable/electric_moped"
+                    android:layout_marginTop="10sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="50sp"
+                    android:layout_height="50sp"/>
+
+                <TextView
+                    android:text="@string/pedidos"
+                    android:layout_marginTop="10sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:translationZ="5sp"
+                app:cardElevation="5sp"
+                android:layout_marginEnd="20sp"
+                app:cardCornerRadius="20sp"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:layout_marginStart="20sp"
+                android:onClick="EmpleadoJefe_Click_Menu">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/restaurant_menu"
+                        android:layout_marginTop="10sp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="50sp"
+                        android:layout_height="50sp"/>
+
+                    <TextView
+                        android:text="@string/menu"
+                        android:layout_marginTop="10sp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginStart="20sp"
+                android:layout_marginBottom="20sp"
+                android:translationZ="5sp"
+                android:elevation="5sp"
+                app:cardCornerRadius="20sp"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:layout_marginEnd="10sp"
+                android:onClick="EmpleadoJefe_Click_Categoria">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/menu_book"
+                        android:layout_marginTop="10sp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="50sp"
+                        android:layout_height="50sp"/>
+
+                    <TextView
+                        android:text="@string/categoria"
+                        android:layout_marginTop="10sp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:translationZ="5sp"
+                app:cardElevation="5sp"
+                android:layout_marginEnd="20sp"
+                app:cardCornerRadius="20sp"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:layout_marginStart="20sp"
+                android:onClick="EmpleadoJefe_Click_Distancias">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/add_location"
+                        android:layout_marginTop="10sp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="50sp"
+                        android:layout_height="50sp"/>
+
+                    <TextView
+                        android:text="@string/distancias"
+                        android:layout_marginTop="10sp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/empleado_jefe_cv_contrasenas"
+            android:translationZ="5sp"
+            android:elevation="5sp"
+            app:cardCornerRadius="20sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_marginBottom="20sp"
+            android:onClick="EmpleadoJefe_Click_Contrasenas">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:src="@drawable/contrasena"
+                    android:layout_marginTop="10sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="50sp"
+                    android:layout_height="50sp"/>
+
+                <TextView
+                    android:text="@string/contrasenas"
+                    android:layout_marginTop="10sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        
+    </LinearLayout>
+    
+    
+    
+
+
+
+</LinearLayout>

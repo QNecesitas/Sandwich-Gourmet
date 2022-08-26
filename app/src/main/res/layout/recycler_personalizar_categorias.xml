@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--Background-->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:background="@color/azul_clarito"
+            android:src="@drawable/category"
+            app:layout_constraintDimensionRatio="3:1.4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--Imagen-->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/recycler_persCategorias_IV"
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            app:layout_constraintDimensionRatio="3:1.4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--Imagen filtro-->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:background="#65000000"
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            app:layout_constraintDimensionRatio="3:1.4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--Nombre y cantidad-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_marginLeft="10sp"
+        android:layout_marginEnd="10sp">
+
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/recycler_persCategorias_TVNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="categoria"
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/recycler_persCategorias_TVCtdElementos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="cantidad_productos"
+            android:textColor="@color/white"
+            android:background="@drawable/textview_redondeado"
+            android:textSize="18dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="6dp"
+            android:paddingStart="6dp"
+            android:paddingBottom="4dp"/>
+
+    </LinearLayout>
+
+    <!--Editar-->
+    <ImageView
+        android:id="@+id/recycler_persCategorias_IVEditar"
+        android:layout_marginTop="5sp"
+        android:layout_marginStart="5sp"
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:src="@drawable/edit"
+        app:tint="@color/white" />
+
+    <!--Eliminar-->
+    <ImageView
+        android:id="@+id/recycler_persCategorias_IVEliminar"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5sp"
+        android:layout_marginEnd="5sp"
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:src="@drawable/delete"
+        app:tint="@color/white" />
+
+</RelativeLayout>

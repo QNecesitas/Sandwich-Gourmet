@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_AcercaDe"
+    android:orientation="vertical">
+
+    <!--Toolbar-->
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/acerca_de_appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/acerca_de_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            app:title="@string/acerca_de"
+            app:titleTextColor="@color/white"
+            android:theme="@style/ToolbarIcons">
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!--Version licencia logo-->
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginEnd="10sp">
+        <LinearLayout
+            android:layout_marginBottom="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="10sp">
+
+
+            <!--Logo-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!--Circle imagen view-->
+                <androidx.cardview.widget.CardView
+                    app:cardCornerRadius="80sp"
+                    android:layout_width="80sp"
+                    android:layout_height="80sp">
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/apkmaker_logo"/>
+                </androidx.cardview.widget.CardView>
+
+                <!--Nombre-->
+                <TextView
+                    android:textStyle="bold"
+                    android:text="ApkMaker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="20sp"/>
+
+
+            </LinearLayout>
+
+            <!--Version-->
+            <LinearLayout
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="20sp"
+                    android:layout_height="20sp"
+                    android:src="@drawable/history" />
+                <TextView
+                    android:layout_marginStart="10sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Version 1.0.0"
+                    android:layout_gravity="center"/>
+
+
+            </LinearLayout>
+
+            <!--Licencia-->
+            <LinearLayout
+                android:onClick="acerca_de_click_licencia"
+                android:layout_marginTop="10sp"
+                android:layout_marginStart="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="20sp"
+                    android:layout_height="20sp"
+                    android:src="@drawable/book"/>
+                <TextView
+                    android:layout_marginStart="10sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ver_licencia"/>
+
+            </LinearLayout>
+
+<!--            Politica de privacidad-->
+            <LinearLayout
+                android:onClick="acerca_de_click_privacidad"
+                android:layout_marginTop="10sp"
+                android:layout_marginStart="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="20sp"
+                    android:layout_height="20sp"
+                    android:src="@drawable/book"/>
+                <TextView
+                    android:layout_marginStart="10sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ver_pol_tica_de_privacidad"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!--Contacto-->
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginEnd="10sp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginTop="10sp"
+            android:orientation="vertical">
+
+            <!--Contacto-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contacto"
+                android:textSize="18sp"/>
+
+            <!--Numero-->
+            <TextView
+                android:layout_marginTop="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_5355759386"
+                android:layout_marginStart="20sp"/>
+
+            <!--Gmail-->
+            <TextView
+                android:layout_marginBottom="20sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginStart="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ronnynordelo_gmail_com"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <!--Creadores-->
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginEnd="10sp">
+        <LinearLayout
+            android:layout_marginBottom="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginTop="10sp"
+            android:orientation="vertical">
+
+            <!--Creadores-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/creadores_principales"
+                android:textSize="18sp"/>
+
+            <!--Fotos-->
+            <LinearLayout
+                android:weightSum="3"
+                android:layout_marginTop="10sp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!--Marcos-->
+                <LinearLayout
+                     android:layout_marginEnd="5sp"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="10sp">
+
+                    <!--Imagen Marcos-->
+                    <androidx.cardview.widget.CardView
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="50sp"
+                        android:layout_height="50sp"
+                        app:cardCornerRadius="80sp">
+                        <ImageView
+                            android:scaleType="fitXY"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/marcos"/>
+                    </androidx.cardview.widget.CardView>
+
+                    <!--TextView Marcos-->
+                    <TextView
+                        android:layout_marginTop="3sp"
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Marcos Suárez García"/>
+
+                    <View
+                        android:layout_marginTop="5sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5sp"
+                        android:background="@color/black"/>
+
+                    <!--Numero-->
+                    <TextView
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_5358111071"/>
+
+                </LinearLayout>
+
+                <!--Ronny-->
+                <LinearLayout
+                    android:layout_marginEnd="5sp"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="5sp">
+
+                    <!--Imagen Ronny-->
+                    <androidx.cardview.widget.CardView
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="50sp"
+                        android:layout_height="50sp"
+                        app:cardCornerRadius="80sp">
+                        <ImageView
+                            android:scaleType="fitXY"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ronny"/>
+                    </androidx.cardview.widget.CardView>
+
+                    <!--TextView Ronny-->
+                    <TextView
+                        android:layout_marginTop="3sp"
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ronny_nordelo_pe_a"/>
+
+                    <View
+                        android:layout_marginTop="5sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5sp"
+                        android:background="@color/black"/>
+
+                    <!--Numero-->
+                    <TextView
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_5355759386"/>
+
+                </LinearLayout>
+
+                <!--Yosmel-->
+                <LinearLayout
+                    android:layout_marginStart="5sp"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="10sp">
+
+                    <!--Imagen Yosmel-->
+                    <androidx.cardview.widget.CardView
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="50sp"
+                        android:layout_height="50sp"
+                        app:cardCornerRadius="80sp">
+                        <ImageView
+                            android:scaleType="fitXY"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/yosmel"/>
+                    </androidx.cardview.widget.CardView>
+
+                    <!--TextView Yosmel-->
+                    <TextView
+                        android:layout_marginTop="3sp"
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Yosmel Pérez Martín"/>
+
+                    <View
+                        android:layout_marginTop="5sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5sp"
+                        android:background="@color/black"/>
+
+                    <!--Numero-->
+                    <TextView
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_5356285623"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+</LinearLayout>

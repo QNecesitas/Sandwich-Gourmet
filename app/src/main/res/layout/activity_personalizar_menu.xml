@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Personalizar_Menu">
+
+    <!--Toolbar-->
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/activity_personalizar_menu_appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/activity_personalizar_menu_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            android:theme="@style/ToolbarIcons"
+            app:titleTextColor="@color/white"
+            app:title="@string/personalizar_menu">
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!--Contenido-->
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_below="@id/activity_personalizar_menu_appBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--Zona de filtraje-->
+        <LinearLayout
+            android:id="@+id/activity_personalizar_menu_zona_filtraje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!--Imagen adorno-->
+            <androidx.cardview.widget.CardView
+                android:layout_marginStart="-30sp"
+                android:layout_width="60sp"
+                android:layout_height="60sp"
+                app:cardCornerRadius="50sp"
+                android:elevation="10sp"
+                android:translationZ="10sp"
+                android:layout_marginBottom="20sp">
+
+                <ImageView
+                    android:layout_marginEnd="8sp"
+                    android:layout_gravity="end|center_vertical"
+                    android:src="@drawable/filter_alt"
+                    android:layout_width="20sp"
+                    android:layout_height="20sp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <!--Recyclers filtros-->
+            <LinearLayout
+                android:layout_marginStart="-3sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!--Categorias-->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:translationZ="10sp"
+                    android:elevation="10sp"
+                    android:minHeight="30sp">
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/activity_personalizar_menu_recycler_selector"
+                        tools:itemCount="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </androidx.cardview.widget.CardView>
+
+                <!--Subcategorias-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/activity_personalizar_menu_cv_subfiltros"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:translationZ="5sp"
+                    android:elevation="5sp"
+                    android:minHeight="30sp">
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/activity_personalizar_menu_recycler_subselector"
+                        tools:itemCount="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--Recycler-->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_personalizar_menu_recycler_general"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/activity_personalizar_menu_zona_filtraje" />
+
+        <!--Imagen de Vacio-->
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/personalizar_menu_layout_imagen_empty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true">
+            <ImageView
+                android:layout_width="200sp"
+                android:layout_height="200sp"
+                android:src="@drawable/sammy_girl_in_the_grocery_cart"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_marginStart="20sp"
+                android:layout_marginEnd="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_n_no_hay_productos_en_esta_secci_n"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+    <!--FloatingButton-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:onClick="personalizar_menu_click_fab"
+        android:id="@+id/activity_personalizar_menu_fbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10sp"
+        android:layout_marginBottom="10sp"
+        android:backgroundTint="@color/amarillo_logo"
+        android:src="@drawable/add"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_admin"
+        android:title="@string/modo_administrador"
+        android:icon="@drawable/admin_panel_settings"
+        />
+
+    <item
+        android:id="@+id/menu_mis_pedidos"
+        android:title="@string/mis_pedidos"
+        android:icon="@drawable/electric_moped"/>
+
+    <item
+        android:id="@+id/menu_acerca_de"
+        android:title="@string/acerca_de"
+        android:icon="@drawable/info"/>
+
+
+
+
+</menu>

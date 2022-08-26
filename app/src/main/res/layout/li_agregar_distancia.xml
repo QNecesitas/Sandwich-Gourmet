@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20sp"
+    android:layout_marginStart="20sp"
+    android:layout_marginEnd="20sp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginBottom="20sp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/seleccione_distancia"
+                android:textSize="21sp"/>
+
+            <ImageView
+                android:id="@+id/li_agregar_distancia_cerrar"
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:layout_alignParentEnd="true"
+                app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        </RelativeLayout>
+        <View
+            android:background="@color/black"
+            android:layout_marginEnd="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="0.1sp"
+            android:inputType="number"
+            android:maxLength="3"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/desde"
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/agregar_distancia_desde"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="50sp"
+                android:inputType="number"
+                android:maxLength="3"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/km"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hasta"
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/agregar_distancia_hasta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="50sp"
+                android:inputType="number"
+                android:maxLength="3"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/km"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/precio"
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/agregar_distancia_precio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="50sp"
+                android:inputType="number"
+                android:maxLength="3"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cup"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+        <Button
+            android:textColor="@color/rojo_logo"
+            android:backgroundTint="@color/amarillo_logo"
+            android:id="@+id/agregar_distancia_aceptar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aceptar"
+            android:layout_gravity="end"
+            android:layout_marginEnd="10sp"
+            android:paddingStart="10sp"
+            android:paddingEnd="10sp"/>
+
+        <androidx.cardview.widget.CardView
+            android:visibility="gone"
+            android:layout_marginTop="10sp"
+            android:id="@+id/li_agregar_distancia_texto_cardview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20sp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/rojo_clarito">
+
+                <TextView
+                    android:textColor="@color/rojo_logo"
+                    android:textAlignment="center"
+                    android:layout_margin="10sp"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/li_agregar_distancia_texto_toast"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/km_comprendidos_otras_distancias"
+                    android:textSize="16sp"/>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

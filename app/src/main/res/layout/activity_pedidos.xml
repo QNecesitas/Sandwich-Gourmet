@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity_Pedidos">
+
+    <!--Toolbar-->
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/activity_pedidos_appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/activity_pedidos_categ_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            android:theme="@style/ToolbarIcons"
+            app:titleTextColor="@color/white"
+            app:title="@string/pedidos">
+            <ImageView
+                android:onClick="pedidos_click_filtros"
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:src="@drawable/filter_alt"
+                app:tint="@color/white"
+                android:layout_gravity="end"
+                android:layout_marginEnd="20sp"/>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/pedidos_recyler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <!--Imagen de Vacio-->
+        <LinearLayout
+            android:id="@+id/pedidos_imagen_empty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true">
+            <ImageView
+                android:layout_width="200sp"
+                android:layout_height="200sp"
+                android:src="@drawable/sammy_girl_in_the_grocery_cart"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_marginStart="20sp"
+                android:layout_marginEnd="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aun_no_hay_pedidos"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <!--Boton vaciar pedidos internet-->
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:visibility="gone"
+            android:id="@+id/pedidos_button_vaciar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vaciar_pedidos"
+            app:icon="@drawable/delete"
+            android:layout_marginEnd="10sp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10sp"
+            android:onClick="pedidos_click_vaciar_internet"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

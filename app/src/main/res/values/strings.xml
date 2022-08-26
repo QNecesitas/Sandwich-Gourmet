@@ -1,0 +1,242 @@
+<resources>
+    <string name="app_name">Sandwich Gourmet</string>
+    <string name="pedidos">Pedidos</string>
+    <string name="menu">Menú</string>
+    <string name="categoria">Categoría</string>
+    <string name="distancias">Distancias</string>
+    <string name="contrasenas">Contraseñas</string>
+    <string name="error">Se ha producido un error</string>
+    <string name="ubicacion_incorrecta">La ubicación escogida no es correcta.</string>
+    <string name="administracion">Administración</string>
+    <string name="acerca_de">Acerca de…</string>
+    <string name="licencia">Licencia</string>
+    <string name="contacto">Contacto</string>
+    <string name="_5355759386">+5355759386</string>
+    <string name="ronnynordelo_gmail_com">ronnynordelo@gmail.com</string>
+    <string name="creadores_principales">Creadores Principales:</string>
+    <string name="_5358111071">+5358111071</string>
+    <string name="_5356285623">+5356285623</string>
+    <string name="ronny_nordelo_pe_a">Ronny Nordelo Peña</string>
+    <string name="contrasena">Contraseñas</string>
+    <string name="contrase_a_actual">Contraseña actual</string>
+    <string name="contrase_a_nueva">Contraseña nueva</string>
+    <string name="mi_contrase_a">Mi contraseña</string>
+    <string name="confirmar_contrase_a_nueva">Confirmar contraseña nueva</string>
+    <string name="contrase_a_de_empleados">Contraseña de empleados</string>
+    <string name="cambiar">Cambiar</string>
+    <string name="cargando_datos">Cargando datos</string>
+    <string name="revise_conx">Revise su conexión a Internet e intente de nuevo</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="campo_vacio">Este campo no puede estar vacío</string>
+    <string name="contrasena_actual_incorrecta">La contraseña actual es incorrecta</string>
+    <string name="contrNueva_noCoincide_contrConf">La contraseña nueva y su confirmación no son iguales</string>
+    <string name="contrActual_noDebe_coincidir_contrNueva">La contraseña actual no debe coincidir con la nueva</string>
+    <string name="contr_noDebeCoinc_contrEmpleados">La contraseña no debe coincidir con la de los empleados</string>
+    <string name="contr_noDebeCoinc_contrJefe">La contraseña no debe coincidir con la de jefe</string>
+    <string name="cambio_satisfactorio">Cambio satisfactorio</string>
+    <string name="contrCambiada_satisfactoriamente">La contraseña ha sido cambiada satisfactoriamente</string>
+    <string name="guardando_contrasena">Guardando contraseña</string>
+    <string name="editar">Editar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="km">Km</string>
+    <string name="desde">Desde:</string>
+    <string name="hasta">Hasta:</string>
+    <string name="precio">Precio</string>
+    <string name="cup">CUP</string>
+    <string name="sandwich">Sandwich</string>
+    <string name="open">Open</string>
+    <string name="closed">Closed</string>
+    <string name="Administracion">Administración</string>
+    <string name="modo_administrador">Modo administrador</string>
+    <string name="mis_pedidos">Mis pedidos</string>
+    <string name="productos">productos</string>
+    <string name="eliminar_distancia_titulo">Eliminar distancia</string>
+    <string name="eliminar_distancia_confirmacion">¿Realmente desea eliminar esta distancia?</string>
+    <string name="por_favor_espere">Por favor espere…</string>
+    <string name="actualizando_info">Actualizando información</string>
+    <string name="km_comprendidos_otras_distancias">Hay kilómetros que coinciden con otros ya guardados</string>
+    <string name="desde_menor_que_hasta">La distancia del campo \'Desde\' debe ser menor que la del campo \'Hasta\'</string>
+    <string name="seleccione_distancia">Seleccione distancia</string>
+    <string name="carrito">Carrito</string>
+    <string name="escoger_ubicacion">Escoger ubicación</string>
+    <string name="hora_a_entregar">Hora a entregar</string>
+    <string name="especificar_direccion">Especificar dirección:</string>
+    <string name="vaciar_carrito">Vaciar Carrito</string>
+    <string name="espere_la_confirmacion_de_su_pedido">  Ahora solo resta que su pedido sea aceptado. Puede ver esto en la pantalla \"Mis Pedidos\"</string>
+    <string name="pedido_enviado_correctamente">¡Pedido enviado correctamente!</string>
+    <string name="enviar_pedido">Enviar Pedido</string>
+    <string name="hora_de_entrega">Hora de entrega:</string>
+    <string name="cancelado_por">Cancelado por:</string>
+    <string name="personalizar_categorias">Personalizar Categorias</string>
+    <string name="envie_una_respuesta_al_cliente_sobre_la_cancelacion_de_su_pedido">Envie una respuesta al cliente sobre la cancelación de su pedido:</string>
+    <string name="el_pedido_fue_cancelado">El pedido fue cancelado:</string>
+    <string name="agregar">Agregar</string>
+    <string name="cargando_mapa">Cargando mapa</string>
+    <string name="realmente_desea_eliminar_elemento_carrito">¿Realmente desea eliminar este elemento del carrito?</string>
+    <string name="error_obtener_ubic">No se pudo obtener la ubicacion</string>
+    <string name="obtenida">Obtenida</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="debe_espec_direccion">Debe especificar su dirección</string>
+    <string name="carrito_vacio">No hay elementos en el carrito</string>
+    <string name="no_seleccionada">no seleccionada</string>
+    <string name="no_se_puod_enviar_pedido">No se pudo enviar el pedido</string>
+    <string name="debe_colocar_direccion">Debe colocar una direccion para la exactitud de la entrega</string>
+    <string name="debe_selecc_ubic">Debe seleccionar su ubicación en el mapa para determinar a la distancia a la que se encuentra</string>
+    <string name="debe_especificar_hora">Debe especificar para qué hora desea su pedido</string>
+    <string name="enviando_pedido">Enviando pedido</string>
+    <string name="direccion">Dirección:</string>
+    <string name="precio_dos_puntos">Precio:</string>
+    <string name="ver_en_el_mapa">Ver en el mapa</string>
+    <string name="en_espera">En espera</string>
+    <string name="finalizado">Finalizado</string>
+    <string name="hora">Hora:</string>
+    <string name="aceptado">Aceptado</string>
+    <string name="realizando_operacion">Realizando operación</string>
+    <string name="cancelado">Cancelado</string>
+    <string name="no_posible_operacion_ya_aceptado">No es posible realizar la operación. Ya ha sido aceptado el pedido</string>
+    <string name="no_posible_operacion_ya_cancelado">No es posible realizar la operación. Ya ha sido cancelado el pedido</string>
+    <string name="todos">Todos</string>
+    <string name="cancelados">Cancelados</string>
+    <string name="aceptados">Aceptados</string>
+    <string name="pedido_cancelado_por">Pedido cancelado por:</string>
+    <string name="vaciar">Vaciar</string>
+    <string name="aun_no_hay_productos_en_su_pedido">¡Aún no hay productos en su pedido!</string>
+    <string name="aun_no_hay_pedidos">¡Aún no hay pedido!</string>
+    <string name="vaciar_pedidos">Vaciar pedidos</string>
+    <string name="seguro_vaciar_pedidos">¿Realmente desea vaciar los pedidos?</string>
+    <string name="salir">Salir</string>
+    <string name="seguro_desea_salir">¿Realmente desea salir?</string>
+    <string name="si">Sí</string>
+    <string name="no">No</string>
+    <string name="nombre_de_la_categor_a">Nombre de la categoría</string>
+    <string name="error_obtener_imagen">Error al obtener imagen</string>
+    <string name="demasiadas_categorias">Demasiadas categorías</string>
+    <string name="excedido_maximo_categorias">Ha excedido el número máximo de categorías</string>
+    <string name="existe_categoria_con_este_nombre">Ya existe una categoría con este nombre</string>
+    <string name="eliminar_categoria">Eliminar categoría</string>
+    <string name="seguro_eliminar_categoria">¿Realmente desea eliminar esta caregoría?</string>
+    <string name="personalizar_menu">Personalizar menú</string>
+    <string name="a_n_no_hay_productos_en_esta_secci_n">Aún no hay productos en esta sección</string>
+    <string name="categoria_dos_puntos">Categoría:</string>
+    <string name="demasiados_elementos">Demasiados elementos</string>
+    <string name="excedido_numero_maximo_elementos">Ha excedido el número máximo de elementos permitidos en el menú</string>
+    <string name="producto_dos_puntos">Producto:</string>
+    <string name="eliminar_elemento">Eliminar elemento</string>
+    <string name="esta_seguro_eliminar_menu">¿Realmente desea eliminar este elemento del menú?</string>
+    <string name="solo_colocar_5_sandwiches">Para el correcto funcionamiento de la aplicación solo puede colocar hasta 5 tipos de sandwiches diferentes en el carrito</string>
+    <string name="solo_colocar_30_elementos">Para el correcto funcionamiento de la aplicación solo puede colocar hasta 30 tipos de productos diferentes en el carrito</string>
+    <string name="demasiados_sandwiches_diferentes">Demasiados tipos de sandwich diferentes</string>
+    <string name="demasiados_elementos_diferentes">Demasiados tipos de productos diferentes</string>
+    <string name="categorias_toolbar">Categorías</string>
+    <string name="rev_conx">Revise su conexión e intente de nuevo</string>
+    <string name="close">close</string>
+    <string name="añadir_al_carrito">Añadir al carrito:</string>
+    <string name="panes">Panes:</string>
+    <string name="confeccione_su_sandwich">Confeccione su Sandwich</string>
+    <string name="quesos">Quesos:</string>
+    <string name="embutidos_y_pescados">Embutidos y atún:</string>
+    <string name="salsas">Salsas:</string>
+    <string name="vegetales">Vegetales</string>
+    <string name="modo_vegetariano">Modo vegetariano</string>
+    <string name="especificaciones">Especificaciones:</string>
+    <string name="escriba_sus_especificaciones_aqui">Escriba sus especificaciones aquí</string>
+    <string name="Salir">Salir</string>
+    <string name="selecc_ctdad_deseada">Seleccione la cantidad deseada</string>
+    <string name="precio_0_cup">Precio: 0 CUP</string>
+    <string name="espere">Espere por favor…</string>
+    <string name="expl_modo_vegetariano">Active esta opción si no desea agregar embutido, atún ni queso</string>
+    <string name="sandwich_no_admitido">Sandwich no admitido</string>
+    <string name="debe_seleccionar_pan">Debe seleccionar un tipo de pan</string>
+    <string name="debe_selecc_embutido">Debe seleccionar al menos un tipo de embutido, atún o un tipo de queso. De lo contrario active el modo vegetariano</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="cant_de_productos">Cantidad de productos</string>
+    <string name="ir_a_mis_pedidos">Ir a mis pedidos</string>
+    <string name="producto_a_carrito_con_exito">Producto agregado a carrito con éxito</string>
+    <string name="seguir_agregando_o_dirijirse_a_este">¿Desea continuar agregando elementos a su carrito o dirigirse e este?</string>
+    <string name="continuar">Continuar</string>
+    <string name="ir_a_carrito">Ir a carrito</string>
+    <string name="desea_vaciar_carrito">Realmente desea vaciar el carrito</string>
+    <string name="introduzca_su_contrase_a">Introduzca su contraseña:</string>
+    <string name="contrasena_no_coincidente">Su contraseña no coincide con ninguna existente</string>
+    <string name="lo_sentimos">Lo sentimos</string>
+    <string name="no_ofrecemos_servicios_a_esa_dist">Por ahora no ofrecemos servicios a la distancia en la que se encuentra su ubicación</string>
+    <string name="ver_licencia">Ver licencia</string>
+    <string name="ver_pol_tica_de_privacidad">Ver política de privacidad</string>
+
+    <string-array name="formas_de_pago_array">
+        <item>Efectivo</item>
+        <item>Transfermóvil</item>
+        <item>EnZona</item>
+    </string-array>
+
+
+    <string name="licencia_texto">
+        Sandwich Gourmet está bajo el uso de la licencia Creative Commons.\n
+¿Cómo funcionan las Licencias Creative Commons?
+Las licencias Creative Commons  se basan en el derecho de autor, con lo cual la obra sigue perteneciendo al  dominio privativo, pero con excepciones y limitaciones que son elegidas y explicitadas por el autor de la obra.  Un autor, que desea otorgar algunos permisos sobre su trabajo, para que terceros puedan copiarlo, o modificarlo  sin problemas de copyright, puede licenciar su obra bajo una licencia CC y de esa forma explicitar su voluntad de que la obra circule sin restricciones legales.
+Esta licencia contiene:
+Reconocimiento-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0)
+Eres libre de:
+Compartir copiar y redistribuir el material en cualquier medio o formato.
+El licenciante no puede revocar estas libertades mientras siga los términos de la licencia.
+Bajo los siguientes términos:
+Reconocimiento : debe otorgar el crédito correspondiente , proporcionar un enlace a la licencia e indicar si se realizaron cambios . Puede hacerlo de cualquier manera razonable, pero no de ninguna manera que sugiera que el licenciante lo respalda a usted o su uso.
+No comercial : no puede utilizar el material con fines comerciales .
+No Derivatives : si remezcla, transforma o construye sobre el material, no puede distribuir el material modificado.
+Sin restricciones adicionales : no puede aplicar términos legales o medidas tecnológicas que restrinjan legalmente a otros de hacer cualquier cosa que permita la licencia.
+\n\n------------------------------\n\n
+Licencia para grupos de terceros---Ucrop
+Copyright 2017, Yalantis
+  Con licencia de Apache License, Versión 2.0 no puede usar este archivo excepto de conformidad con la Licencia. Puede obtener una copia de la Licencia en: http:------www.apache.org---licenses---LICENSE-2.0.
+  A menos que lo exija la ley aplicable o se acuerde por escrito, el software distribuido bajo la Licencia se distribuye "TAL CUAL", SIN GARANTÍAS NI CONDICIONES DE NINGÚN TIPO, ya sean expresas o implícitas. Consulte la Licencia para conocer el idioma específico que rige los permisos y limitaciones bajo la Licencia.
+\n\n------------------------------\n\n
+Licencia para grupo de terceros---Glide
+Copyright 2014 Google, Inc. Todos los derechos reservados.
+La redistribución y el uso en formato fuente y binario, con o sin modificación, están permitidos siempre que se cumplan las siguientes condiciones:
+ 1. Las redistribuciones del código fuente deben conservar el aviso de derechos de autor anterior, esta lista de condiciones y el siguiente aviso legal.
+ 2. Las redistribuciones en forma binaria deben reproducir el aviso de derechos de autor anterior, esta lista de condiciones y el siguiente descargo de responsabilidad en la documentación y---u otros materiales proporcionado con la distribución.
+ESTE SOFTWARE ES PROPORCIONADO POR GOOGLE, INC. TAL CUAL Y CUALQUIER  EXPLÍCITO O IMPLÍCITO GARANTÍAS, INCLUIDAS, ENTRE OTRAS, LAS GARANTÍAS IMPLÍCITAS DE COMERCIABILIDAD Y SE RENUNCIA A LA IDONEIDAD PARA UN PROPÓSITO PARTICULAR. EN NINGÚN CASO GOOGLE, INC. O LOS COLABORADORES SERÁN RESPONSABLES DE CUALQUIER DAÑO DIRECTO, INDIRECTO, INCIDENTAL, ESPECIAL, EJEMPLAR O DAÑOS CONSECUENTES (INCLUYENDO, ENTRE OTROS, ADQUISICIÓN DE BIENES SUSTITUTOS O SERVICIOS; PÉRDIDA DE USO, DATOS O BENEFICIOS; O INTERRUPCIÓN DEL NEGOCIO) CUALQUIERA QUE SE CAUSE Y EN CUALQUIER TEORÍA DE RESPONSABILIDAD, YA SEA POR CONTRATO, RESPONSABILIDAD ESTRICTA O AGRAVIO (INCLUYENDO NEGLIGENCIA U OTRA) QUE SURJA DE CUALQUIER MANERA DEL USO DE ESTE SOFTWARE, INCLUSO SI ADVERTIDO DE LA POSIBILIDAD DE TALES DAÑOS.
+  Las opiniones y conclusiones contenidas en el software y la documentación son las del autor y no debe interpretarse como representación de políticas oficiales, expresadas o implícitas, de Google, Inc.
+\n\n------------------------------\n\n
+Licencia para grupo de terceros---Gson  Copyright 2008 Google Inc.
+  Con licencia de Apache License, Versión 2.0 no puede usar este archivo excepto de conformidad con la Licencia. Puede obtener una copia de la Licencia en: http:------www.apache.org---licenses---LICENSE-2.0
+  A menos que lo exija la ley aplicable o se acuerde por escrito, el software distribuido bajo la Licencia se distribuye "TAL CUAL", SIN GARANTÍAS NI CONDICIONES DE NINGÚN TIPO, ya sean expresas o implícitas. Consulte la Licencia para conocer el idioma específico que rige los permisos y limitaciones bajo la Licencia.
+    </string>
+
+
+    <string name="politica_privacidad_texto">
+        Sandwich Gourmet es una aplicación móvil a través de la cual el usuario puede ordenar un pedido alimenticio en La Habana. La presente Política de Privacidad establece los términos en que Sandwich Gourmet usa y protege la información proporcionada por los usuarios al momento de usar la aplicación. Esta Política de Privacidad puede cambiar con el tiempo por lo que recomendamos revisar continuamente esta página para asegurarse que está de acuerdo con dichos cambios.
+\n\nInformación que es recojida:\n\n
+La información es brindada por el mismo usuario. Tomamos latitud, longitud y dirección para poder saber cuál será la ubicación y entregar el pedido, también utilizaremos el número móvil del cliente para su comunicación en caso de cualquier percance.
+\n\nInformación de terceros:\n\n
+El contenido es brindado por Sandwich Gourmet, los creadores no nos responsabilizamos de dicho contenido. No nos responsabilizamos por los datos dados por el usuario que no se correspondan con latitud, longitud y dirección. Está aplicación no comparte datos con terceros.
+\n\nContacto:\n\n
+Ante cualquier duda o sugerencia por favor contáctenos al correo: ronnynordelo@gmail.com.
+    </string>
+    <string name="forma_de_pago">Forma de pago:</string>
+    <string name="lo_m_s_pronto_posible">Lo más pronto posible</string>
+    <string name="tiempo_demora_pedido">Una vez el pedido sea aceptado, este tardará aproximadamente 15 min en prepararse más el tiempo que demore el envío(depende se su ubicación)</string>
+    <string name="ahora">Ahora</string>
+    <string name="seleccione_minimo_hora_despues">Debe seleccionar mínimo una hora después de la hora actual, de lo contrario active la opción \"Lo más pronto posible\"</string>
+    <string name="error_fuera_de_horario">El horario en el que se pueden realizar los envíos es de lunes a sábado desde 08:00 am hasta 06:00 pm</string>
+    <string name="n_mero_de_tel_fono">Número de teléfono</string>
+    <string name="n_mero_de_whatsapp">Número de WhatsApp</string>
+    <string name="pagar_con_Transfermovil">Pagar con Transfermóvil</string>
+    <string name="pagar_con_EnZona">Pagar con EnZona</string>
+    <string name="pago_con_transferm_vil">Pago con Transfermóvil</string>
+    <string name="pasos_pago_transfermovil">Para realizar este tipo de pago siga los siguientes pasos:\n\n1-Espere a que sea aceptado el pedido\n2-Envíe el monto a pagar al número de tarjeta 9205-9598-7369-6026\n3-Envíe una captura de su pago al número: +5359745557</string>
+    <string name="registro">Registro</string>
+    <string name="finalizados">Finalizados</string>
+    <string name="ubicacion_obtenida">Ubicación obtenida</string>
+    <string name="precio_envio_sumado">\"A su precio total ha sido sumado el precio del envío. Este es de \"</string>
+    <string name="cambiar_visibilidad">Cambiar visibilidad</string>
+
+
+</resources>
+
+
+
+
+
+
+

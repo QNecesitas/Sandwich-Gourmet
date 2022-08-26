@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Contrasena"
+    android:orientation="vertical"
+    android:background="@color/Gris">
+
+    <!--Toolbar-->
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/contrasena_appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/contrasena_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            app:title="@string/contrasena"
+            app:titleTextColor="@color/white"
+            android:theme="@style/ToolbarIcons">
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!--TV Mi Contraseña-->
+    <LinearLayout
+        android:layout_marginStart="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mi_contrase_a"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <!--TILs Cambio de contraseña-->
+    <LinearLayout
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/contrasena_Jefe_TIL_Actual"
+            android:layout_marginStart="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50sp"
+            app:passwordToggleEnabled="true">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/contrasena_Jefe_TIET_Actual"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/contrase_a_actual"
+                android:inputType="textPassword"
+                android:maxLength="30"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/contrasena_Jefe_TIL_Nueva"
+            android:layout_marginStart="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50sp"
+            app:passwordToggleEnabled="true">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/contrasena_Jefe_TIET_Nueva"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/contrase_a_nueva"
+                android:inputType="textPassword"
+                android:maxLength="30"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/contrasena_Jefe_TIL_NuevaConf"
+            android:layout_marginStart="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50sp"
+            app:passwordToggleEnabled="true">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/contrasena_Jefe_TIET_NuevaConf"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/confirmar_contrase_a_nueva"
+                android:inputType="textPassword"
+                android:maxLength="30"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <!--Button Cambiar-->
+        <TextView
+            android:onClick="contrasena_click_cambiarContJefe"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="5sp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="10sp"
+            android:paddingStart="20sp"
+            android:paddingEnd="20sp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cambiar"
+            android:background="@drawable/button_redondeado_fill"
+            android:backgroundTint="@color/amarillo_logo"/>
+
+
+    </LinearLayout>
+
+    <!--TV Contraseña de empleados-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contrase_a_de_empleados"
+            android:textSize="20sp"
+            android:layout_marginStart="10sp" />
+    </LinearLayout>
+
+    <!--TILs Cambio de contraseña de empleados-->
+    <LinearLayout
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/contrasena_Empleado_TIL_Actual"
+            android:layout_marginStart="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50sp"
+            app:passwordToggleEnabled="true">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/contrasena_Empleado_TIET_Actual"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/contrase_a_actual"
+                android:inputType="textPassword"
+                android:maxLength="30"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/contrasena_Empleado_TIL_Nueva"
+            android:layout_marginStart="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50sp"
+            app:passwordToggleEnabled="true">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/contrasena_Empleado_TIET_Nueva"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/contrase_a_nueva"
+                android:inputType="textPassword"
+                android:maxLength="30"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/contrasena_Empleado_TIL_NuevaConf"
+            android:layout_marginStart="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50sp"
+            app:passwordToggleEnabled="true">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/contrasena_Empleado_TIET_NuevaConf"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/confirmar_contrase_a_nueva"
+                android:inputType="textPassword"
+                android:maxLength="30"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <!--Button Cambiar-->
+        <TextView
+            android:onClick="contrasena_click_cambiarContEmpleado"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="5sp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="10sp"
+            android:paddingStart="20sp"
+            android:paddingEnd="20sp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cambiar"
+            android:background="@drawable/button_redondeado_fill"
+            android:backgroundTint="@color/amarillo_logo"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

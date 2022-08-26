@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10sp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--Imagen, nombnre, precio-->
+        <LinearLayout
+            android:id="@+id/li_personalizar_menu_ll_zonallenado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!--Escoger Imagen-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/li_personalizar_menu_cv_imagen"
+                android:layout_width="100sp"
+                android:layout_marginStart="10sp"
+                android:layout_height="100sp"
+                android:layout_marginTop="10sp"
+                app:cardCornerRadius="10sp"
+                android:elevation="0sp"
+                android:translationZ="0sp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <!--Background-->
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0sp"
+                            android:background="@color/azul_clarito"
+                            app:layout_constraintDimensionRatio="3:3"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <!--Figura-->
+                    <ImageView
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/fastfood"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp" />
+
+                    <!--Imagen-->
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/li_persmenu_IV"
+                            android:layout_width="match_parent"
+                            android:layout_height="0sp"
+                            app:layout_constraintDimensionRatio="3:3"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--Precio y nombre-->
+            <LinearLayout
+                android:layout_marginEnd="10sp"
+                android:layout_marginStart="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!--Escoger Nombre-->
+                <LinearLayout
+                    android:layout_marginTop="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textSize="16sp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/producto_dos_puntos"/>
+
+                    <EditText
+                        android:id="@+id/li_personalizar_menu_et_nombre"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10sp"
+                        android:maxLength="28"
+                        android:maxLines="2" />
+
+                </LinearLayout>
+
+                <!--Escoger Nombre-->
+                <LinearLayout
+                    android:layout_marginTop="5sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textSize="16sp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/precio_dos_puntos"/>
+
+                    <EditText
+                        android:id="@+id/li_personalizar_menu_et_precio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10sp"
+                        android:maxLength="10"
+                        android:maxLines="1"
+                        android:inputType="numberDecimal"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!--Eliminar-->
+        <ImageView
+            android:id="@+id/li_personalizar_menu_iv_eliminar"
+            android:visibility="gone"
+            android:layout_marginTop="20sp"
+            android:layout_marginStart="20sp"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:src="@drawable/delete"
+            android:translationZ="10sp"
+            app:tint="@color/white" />
+
+        <!--Categoria-->
+        <LinearLayout
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="10sp"
+            android:id="@+id/li_personalizar_menu_filtros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/li_personalizar_menu_ll_zonallenado"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/categoria_dos_puntos"/>
+
+            <LinearLayout
+                android:layout_marginStart="10sp"
+                android:layout_marginTop="5sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/li_personalizar_menu_tv_categoria"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/categoria"
+                    android:background="@drawable/button_redondeado_fill"
+                    android:backgroundTint="@color/azul_clarito"
+                    android:textColor="@color/azul_brillante"
+                    android:paddingEnd="5sp"
+                    android:paddingStart="5sp"/>
+
+                <TextView
+                    android:id="@+id/li_personalizar_menu_tv_subcategoria"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/categoria"
+                    android:background="@drawable/button_redondeado_fill"
+                    android:backgroundTint="@color/azul_clarito"
+                    android:textColor="@color/azul_brillante"
+                    android:paddingEnd="5sp"
+                    android:paddingStart="5sp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--Cancelar-->
+        <TextView
+            android:id="@+id/li_personalizar_menu_tv_cancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10sp"
+            android:layout_below="@id/li_personalizar_menu_filtros"
+            android:layout_marginStart="40sp"
+            android:layout_marginBottom="10sp"
+            android:background="@drawable/button_redondeado_fill"
+            android:backgroundTint="@color/azul_clarito"
+            android:paddingStart="10sp"
+            android:paddingTop="5sp"
+            android:paddingEnd="10sp"
+            android:paddingBottom="5sp"
+            android:text="@string/cancelar"
+            android:textColor="@color/azul"
+            android:textSize="20sp" />
+
+        <!--Aceptar-->
+        <TextView
+            android:layout_marginTop="10sp"
+            android:id="@+id/li_personalizar_menu_tv_aceptar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_redondeado_fill"
+            android:backgroundTint="@color/azul_clarito"
+            android:text="@string/aceptar"
+            android:textColor="@color/azul"
+            android:textSize="20sp"
+            android:layout_below="@id/li_personalizar_menu_filtros"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="40sp"
+            android:layout_marginBottom="10sp"
+            android:paddingTop="5sp"
+            android:paddingBottom="5sp"
+            android:paddingStart="10sp"
+            android:paddingEnd="10sp"/>
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,442 @@
+[
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_restaurant_menu.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\restaurant_menu.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_textview_redondeado_rojo_chip.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\textview_redondeado_rojo_chip.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_fastfood.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\fastfood.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_li_personalizar_menu_agregar_o_editar.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\li_personalizar_menu_agregar_o_editar.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\menu_navegation_menu.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\menu\\navegation_menu.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_li_cuantos_sandwich.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\li_cuantos_sandwich.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_admin_panel_settings.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\admin_panel_settings.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_ronny.jpg.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\ronny.jpg"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_redondeado_fill.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\button_redondeado_fill.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_info.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\info.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_done.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\done.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_mis_pedidos.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\activity_mis_pedidos.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_li_licencia.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\li_licencia.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_schedule.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\schedule.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_electric_moped.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\electric_moped.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_pedidos.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\activity_pedidos.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_recycler_carrito.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\recycler_carrito.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_backgr_amarillo_claro_fill.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\backgr_amarillo_claro_fill.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_recycler_mis_pedidos.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\recycler_mis_pedidos.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_detalles.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\activity_detalles.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_li_privacidad.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\li_privacidad.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_yosmel.jpg.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\yosmel.jpg"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_receipt_long.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\receipt_long.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_history.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\history.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_textview_redondeado_amarillo_ship.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\textview_redondeado_amarillo_ship.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_menu.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\activity_menu.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_nav_header_activity_categorias.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\nav_header_activity_categorias.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\menu_filtro_pedidos.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\menu\\filtro_pedidos.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_recycler_persmenu_selector.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\recycler_persmenu_selector.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_mapa_colocar.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\activity_mapa_colocar.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_li_pago_transfermovil.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\li_pago_transfermovil.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_recycler_activity_menu.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\recycler_activity_menu.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_li_agregar_producto_menu.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\li_agregar_producto_menu.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_mapa_obtener.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\activity_mapa_obtener.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_visibility.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\visibility.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_textview_redondeado.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\textview_redondeado.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo_negocio.png.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\logo_negocio.png"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_textview_redondeado_azul_chip.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\textview_redondeado_azul_chip.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_li_agregar_distancia.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\li_agregar_distancia.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_contrasena.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\activity_contrasena.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_distancias.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\activity_distancias.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_add.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\add.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_apkmaker_logo.jpg.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\apkmaker_logo.jpg"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_shopping_car.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\shopping_car.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_etiqueta.png.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\etiqueta.png"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_li_personalizar_categorias_agregar_o_editar.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\li_personalizar_categorias_agregar_o_editar.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_acerca_de.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\activity_acerca_de.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_cocina_chef.jpg.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\cocina_chef.jpg"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_textview_redondeado_blanco.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\textview_redondeado_blanco.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\menu_editar_eliminar.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\menu\\editar_eliminar.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_recycler_distancias.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\recycler_distancias.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_redondeado.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\button_redondeado.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_recycler_pedidos.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\recycler_pedidos.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_repartidor.jpg.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\repartidor.jpg"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_visibility_off.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\visibility_off.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_li_pago_enzona.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\li_pago_enzona.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_sammy_girl_in_the_grocery_cart.png.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\sammy_girl_in_the_grocery_cart.png"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_li_confirmar_compra.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\li_confirmar_compra.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_category.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\category.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_personalizar_categorias.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\activity_personalizar_categorias.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_li_contrasenas.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\li_contrasenas.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_recycler_activity_categorias.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\recycler_activity_categorias.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_textview_redondeado_rojo.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\textview_redondeado_rojo.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_mail.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\mail.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_contrasena.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\contrasena.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_recycler_personalizar_categorias.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\recycler_personalizar_categorias.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_add_location.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\add_location.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_book.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\book.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_li_pedido_cancelado.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\li_pedido_cancelado.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_empleado_jefe.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\activity_empleado_jefe.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_local_shipping.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\local_shipping.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_li_agregar_producto_sandwich_menu.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\li_agregar_producto_sandwich_menu.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_categorias.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\activity_categorias.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_filter_alt.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\filter_alt.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_textview_redondeado_verde_chip.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\textview_redondeado_verde_chip.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_menu_book.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\menu_book.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_qr_transfermovil.jpg.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\qr_transfermovil.jpg"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_delete.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\delete.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_li_pedido_enviado.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\li_pedido_enviado.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_marcos.jpg.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\marcos.jpg"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_li_esoger_hora.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\li_esoger_hora.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_carrito.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\activity_carrito.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_personalizar_menu.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\layout\\activity_personalizar_menu.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_edit.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\edit.xml"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\build\\intermediates\\merged_res\\debug\\drawable_call.xml.flat",
+        "source": "D:\\QNecesitas\\ApkMaker\\Proyecto Sandwich\\ElEmperadorVedado\\app\\src\\main\\res\\drawable\\call.xml"
+    }
+]

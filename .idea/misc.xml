@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ApkMaker/Proyectos/Proyecto Sandwich/ElEmperadorVedado/app/src/main/res/layout/activity_menu.xml" value="0.2" />
+        <entry key="..\:/ApkMaker/Proyectos/Proyecto Sandwich/ElEmperadorVedado/app/src/main/res/layout/li_pago_enzona.xml" value="0.25416666666666665" />
+        <entry key="..\:/QNecesitas/ApkMaker/Proyecto Sandwich/ElEmperadorVedado/app/src/main/res/layout/activity_acerca_de.xml" value="0.1" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.19375" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable/add.xml" value="0.19375" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable/add_location.xml" value="0.19375" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable/admin_panel_settings.xml" value="0.19375" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable/backgr_amarillo_claro_fill.xml" value="0.17037037037037037" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable/book.xml" value="0.19375" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable/button_redondeado.xml" value="0.19375" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable/button_redondeado_fill.xml" value="0.1915057915057915" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable/call-48px.xml" value="0.19375" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable/call.xml" value="0.19027777777777777" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable/category-48px.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable/contrasena.xml" value="0.19375" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable/done.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable/download.xml" value="0.19375" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable/edit.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable/electric_moped.xml" value="0.19375" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable/filter_alt.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable/history.xml" value="0.19375" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable/ic_launcher_background.xml" value="0.19375" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable/local_shipping.xml" value="0.25435897435897437" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable/menu_book.xml" value="0.19375" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable/receipt_long.xml" value="0.25435897435897437" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable/restaurant_menu.xml" value="0.19375" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable/schedule-48px.xml" value="0.25435897435897437" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable/schedule.xml" value="0.25435897435897437" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable/shopping_car.xml" value="0.103515625" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable/textview_redondeado.xml" value="0.19375" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable/textview_redondeado_amarillo_ship.xml" value="0.25435897435897437" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable/textview_redondeado_azul_chip.xml" value="0.25435897435897437" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable/textview_redondeado_blanco.xml" value="0.16944444444444445" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable/textview_redondeado_rojo.xml" value="0.25435897435897437" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable/textview_redondeado_rojo_chip.xml" value="0.25435897435897437" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable/textview_redondeado_verde_chip.xml" value="0.25435897435897437" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/drawable/visibility_off-48px.xml" value="0.22777777777777777" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/activity_acerca_de.xml" value="0.264" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/activity_carrito.xml" value="0.264" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/activity_categorias.xml" value="0.1" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/activity_contrasena.xml" value="0.176" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/activity_detalles.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/activity_distancias.xml" value="0.16799999999999998" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/activity_empleado_jefe.xml" value="0.2" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/activity_main2.xml" value="0.1646174863387978" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/activity_mapa.xml" value="0.2" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/activity_mapa_colocar.xml" value="0.2" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/activity_mapa_obtener.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/activity_menu.xml" value="0.1646174863387978" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/activity_mis_pedidos.xml" value="0.264" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/activity_pedidos.xml" value="0.2" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/activity_personalizar_categorias.xml" value="0.152" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/activity_personalizar_menu.xml" value="0.176" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/activity_registro.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/activity_splash.xml" value="0.144" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/carro.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/li_acerca_de_privacidad.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/li_agragar_producto_menu.xml" value="0.6" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/li_agregar_distancia.xml" value="0.2" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/li_agregar_producto_menu.xml" value="0.2421875" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/li_agregar_producto_sandwich_menu.xml" value="0.176" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/li_confirmar_compra.xml" value="0.2" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/li_contrasenas.xml" value="0.2" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/li_cuantos_sandwich.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/li_esoger_hora.xml" value="0.536" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/li_licencia.xml" value="0.2" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/li_pago_enzona.xml" value="0.264" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/li_pago_transfermovil.xml" value="0.264" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/li_pedido_cancelado.xml" value="0.264" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/li_pedido_enviado.xml" value="0.264" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/li_personalizar_categorias_agregar_o_editar.xml" value="0.176" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/li_personalizar_menu_agregar_o_editar.xml" value="0.2" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/li_privacidad.xml" value="0.176" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/nav_header_activity_categorias.xml" value="0.1" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/navegation_menu.xml" value="0.1646174863387978" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/recycler_activity_categorias.xml" value="0.2" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/recycler_activity_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/recycler_carrito.xml" value="0.264" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/recycler_distancias.xml" value="0.16" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/recycler_mis_pedidos.xml" value="0.2" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/recycler_navegar_categorias.xml" value="0.264" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/recycler_navegar_sub_categorias_sandwich.xml" value="0.264" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/recycler_pedidos.xml" value="0.2" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/recycler_persMenu_selector.xml" value="0.264" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/recycler_persmenu_selector.xml" value="0.13125" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/recycler_personalizar_categorias.xml" value="0.2" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/recycler_personalizar_menu.xml" value="0.2421875" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/layout/recycler_personalizar_menu_productos.xml" value="0.2421875" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/menu-v26/editar_eliminar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/menu/editar_eliminar.xml" value="0.18518518518518517" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/menu/filtro_pedidos.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/menu/navegation_menu.xml" value="0.181640625" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.19375" />
+        <entry key="..\:/Users/Marcos/AndroidStudioProjects/ElEmperadorVedado/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.19375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

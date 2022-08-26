@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginEnd="10sp"
+        android:layout_marginStart="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15sp"
+        android:elevation="5sp"
+        android:translationZ="5sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="10sp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20sp">
+
+            <TextView
+                android:id="@+id/recycler_distancia_TVKilometros"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginTop="20sp"
+                android:text="10-20 km"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/recycler_distancias_TVCosto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="30sp"
+                android:text="5cup"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/recyler_distancias_eliminar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/recycler_distancia_TVKilometros"
+                android:layout_marginStart="15sp"
+                android:layout_marginTop="15sp"
+                android:background="@drawable/button_redondeado"
+                android:backgroundTint="@color/amarillo_logo"
+                android:onClick="recycler_distancias_eliminar"
+                android:paddingStart="20sp"
+                android:paddingEnd="20sp"
+                android:text="@string/eliminar"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/recyler_distancias_editar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/recycler_distancias_TVCosto"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="15sp"
+                android:layout_marginEnd="30sp"
+                android:background="@drawable/button_redondeado"
+                android:backgroundTint="@color/amarillo_logo"
+                android:onClick="recycler_distancias_editar"
+                android:paddingStart="20sp"
+                android:paddingEnd="20sp"
+                android:text="@string/editar"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

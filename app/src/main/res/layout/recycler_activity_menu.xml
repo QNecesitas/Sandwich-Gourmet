@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginBottom="5sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginStart="5sp"
+        android:layout_marginEnd="5sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!--Imagen y nombre-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--Imagen Visibility-->
+            <androidx.cardview.widget.CardView
+                android:visibility="invisible"
+                android:layout_marginStart="5sp"
+                android:id="@+id/recycler_menu_cv_visibility"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:translationZ="5sp"
+                android:layout_marginBottom="-10sp"
+                android:layout_marginTop="20sp"
+                app:cardElevation="5sp"
+                app:cardCornerRadius="30sp">
+
+                <ImageView
+                    android:id="@+id/recycler_menu_iv_visibility"
+                    android:padding="3sp"
+                    android:layout_width="20sp"
+                    android:layout_height="20sp"
+                    android:src="@drawable/visibility"
+                    app:tint="@color/rojo_logo" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <!--ImagenProd-->
+            <androidx.cardview.widget.CardView
+                android:elevation="0sp"
+                android:translationZ="0sp"
+                android:layout_width="80sp"
+                android:layout_height="80sp"
+                app:cardCornerRadius="15sp">
+
+                <!--Background-->
+                <ImageView
+                    android:scaleType="center"
+                    android:id="@+id/imagen_recycler_menu_bacgr"
+                    android:src="@drawable/fastfood"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/amarillo_logo"
+                    />
+
+                <!--Imagen-->
+                <ImageView
+                    android:scaleType="fitXY"
+                    android:id="@+id/imagen_recycler_menu"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+
+
+                <!--Selector-->
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/selector_recycler_menu"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/azul_clarito_transp"
+                    android:foreground="@drawable/done"
+                    android:foregroundGravity="center"
+                    android:foregroundTint="@color/azul_brillante"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <!--Nombre-->
+            <TextView
+                android:id="@+id/recycler_menu_nombre_producto"
+                android:layout_width="80sp"
+                android:textSize="15sp"
+                android:layout_height="wrap_content"
+                android:text="Cerveza Cristal"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <!--Etiqueta-->
+        <RelativeLayout
+            android:layout_width="60sp"
+            android:layout_height="25sp"
+            android:layout_marginStart="-50sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="-50sp"
+            android:background="@drawable/etiqueta"
+            android:rotation="-20"
+            android:translationZ="20sp">
+
+            <TextView
+                android:id="@+id/recycler_menu_precio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="5sp"
+                android:text="50000"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

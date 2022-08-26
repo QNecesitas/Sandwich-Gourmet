@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/todos"
+        android:id="@+id/menu_pedidos_todos"/>
+    <item
+        android:title="@string/cancelados"
+        android:id="@+id/menu_pedidos_cancelados"/>
+    <item
+        android:title="@string/aceptados"
+        android:id="@+id/menu_pedidos_aceptados"/>
+    <item
+        android:title="@string/en_espera"
+        android:id="@+id/menu_pedidos_espera"/>
+    <item
+        android:title="@string/finalizados"
+        android:id="@+id/menu_pedidos_finalizados"/>
+
+
+</menu>
