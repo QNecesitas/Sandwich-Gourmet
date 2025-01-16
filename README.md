@@ -22,3 +22,8 @@ The application does not contain any sensitive information related to the client
   - View and accept incoming orders, including the delivery address and time specified by the customer.
 - **Delivery Assistance**: 
   - Access real-time delivery locations for seamless order fulfillment.
+
+## ScreenShots
+<img src="https://github.com/QNecesitas/Sandwich-Gourmet/blob/master/screenshots/sg1.jpg">
+<img src="https://github.com/QNecesitas/Sandwich-Gourmet/blob/master/screenshots/sg2.jpg">
+<img src="https://github.com/QNecesitas/Sandwich-Gourmet/blob/master/screenshots/sg3.jpg">
