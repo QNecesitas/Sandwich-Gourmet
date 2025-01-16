@@ -5,7 +5,7 @@ This repository contains the code for **Sandwich Gourmet**, a mobile application
 ## Note
 
 This code has been made public because our development company responsible for this project has permanently closed. As a result, all contracts and projects with clients, including this one, were discontinued.  
-The application does not contain any sensitive information related to the client, and it has been shared just as part of the company's portfolio to enhance the creator's curriculums.
+The application does not contain any sensitive information related to the client, and it has been shared just as part of the company's portfolio to enhance the creators' curriculums.
 
 ## Features
 
