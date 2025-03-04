@@ -24,6 +24,6 @@ The application does not contain any sensitive information related to the client
   - Access real-time delivery locations for seamless order fulfillment.
 
 ## ScreenShots
-<img src="https://github.com/QNecesitas/Tienda-DCero/blob/main/screenshots/DCeroDise%C3%B1ado.png">
-<img src="https://github.com/QNecesitas/Tienda-DCero/blob/main/screenshots/DCeroDise%C3%B1ado1.png">
-<img src="https://github.com/QNecesitas/Tienda-DCero/blob/main/screenshots/DCeroDise%C3%B1ado2.png">
+<img src="https://github.com/QNecesitas/Sandwich-Gourmet/blob/c76806e6e70b1691fc357e02a34a2b6dc4676569/screenshots/sg1.jpg">
+<img src="https://github.com/QNecesitas/Sandwich-Gourmet/blob/c76806e6e70b1691fc357e02a34a2b6dc4676569/screenshots/sg2.jpg">
+<img src="https://github.com/QNecesitas/Sandwich-Gourmet/blob/c76806e6e70b1691fc357e02a34a2b6dc4676569/screenshots/sg3.jpg">
